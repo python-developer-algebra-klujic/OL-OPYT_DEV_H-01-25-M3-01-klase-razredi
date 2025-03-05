@@ -54,11 +54,13 @@ print()
 
 
 class Student:
-    ime = 'Pero'
-    prezime = 'Peric'
-    broj_indeksa = '123456'
-    godina_studija = 2021
-    prosjek_ocjena = 4.89
+    # Konstruktor klase - bolji izraz konstruktor objekata ove klase
+    def __init__(self, ime, prezime, broj_indeksa, godina_studija, prosjek_ocjena):
+        self.ime = ime
+        self.prezime = prezime
+        self.broj_indeksa = broj_indeksa
+        self.godina_studija = godina_studija
+        self.prosjek_ocjena = prosjek_ocjena
 
 
 pero = Student()
@@ -74,6 +76,11 @@ print()
 
 
 ana = Student()
+ana.ime = 'Ana'
+ana.prezime = 'Anic'
+ana.broj_indeksa = '654321'
+ana.godina_studija = 2024
+ana.prosjek_ocjena = 4.98
 # Ispis podataka
 print('Ispis iz klase Student - Ana')
 print(ana.ime)

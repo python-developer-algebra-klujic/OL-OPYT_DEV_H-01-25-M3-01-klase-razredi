@@ -46,7 +46,12 @@ print()
 
 
 
-
+def create_student(ime, prezime, broj_indeksa, godina_studija, prosjek_ocjena):
+    interna_var_ime = ime
+    interna_var_prezime = prezime
+    interna_var_broj_indeksa = broj_indeksa
+    interna_var_godina_studija = godina_studija
+    interna_var_prosjek_ocjena = prosjek_ocjena
 
 
 
